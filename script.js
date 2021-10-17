@@ -53,7 +53,8 @@ window.onload =  function(event) {
   node1.appendChild(h1);
   node1.appendChild(p1)
 // Part 4
-document.querySelectorAll(".special-title").style.fontSize = "2 rem"
+//document.querySelectorAll(".special-title").setAttribute("style","font-size: 2rem")
+document.querySelector(".special-title").style.fontSize = "2rem"
   
 
 }
